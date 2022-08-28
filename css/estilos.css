@@ -13,7 +13,7 @@
 }
 
 .Main__ImgSec{
-    width: 23vw;
+    width: 90%;
     transform:
     perspective(750px)
     translate3d(0px, 0px, -250px)
@@ -26,9 +26,112 @@
         transform: translate3d(0px, 0px, -250px);
       }
 
+.FormatoLi{
+    list-style-type: none;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    list-style: none;
+}
+
+.BgcH{
+    background-color: #00d3b9;   
+}
+
+.BodyBackgroundColor{
+    background-color: #e6e5e5;
+    /* background-image: url(../images/trigo.com.png);
+    animation-name: AnimacionTrigo;
+    animation-duration: 50s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease; */
+  
+  }
+
+  /* @keyframes AnimacionTrigo {
+    0%{
+        background-position:75% 100% ;   
+    }
+    50%{  
+        background-position:100% 100% ;
+    }
+    100%{ background-position:125% 100% ;
+
+    }
+    
+  } */
 
 
-@media only screen and ( max-width: 800px){
+
+footer{
+    background-color: #00d3b9;
+}
+
+/* Textos *//* Textos *//* Textos *//* Textos *//* Textos */
+.navbar-brand{
+    font-family: 'Courgette', cursive;
+    color: black;   
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    font-weight: 800 ;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 2rem ;
+    font-weight: 700;
+    color: black;
+    padding: 0.9 em;
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: black;
+    line-height: 2em;
+    padding: 1em ;
+    font-weight: 700;
+}
+
+/* FORM Config *//* FORM Config *//* FORM Config */
+legend{
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    font-weight: 800 ;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #04AA6D;
+    border: none;
+    padding: 16px 32px;
+    margin-bottom: 1rem;
+}
+.btn-primary:hover{
+    background-color: #03d78a;  
+}
+
+/* containers general*//* containers *//* containers *//* containers */
+
+.container-fluid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+
+/* mediaq *//* mediaq *//* mediaq *//* mediaq *//* mediaq *//* mediaq */
+
+@media only screen and ( max-width: 650px){
     #carouselExampleIndicators{
         display: block;
     }
