@@ -33,23 +33,26 @@
     font-weight: 700;
     list-style: none;
 }
-
+/* background *//* background *//* background *//* background *//* background */
 .BgcH{
     background-color: #00d3b9;   
 }
 
 .BodyBackgroundColor{
-    background-color: #e6e5e5;
-    /* background-image: url(../images/trigo.com.png);
+    background-color: #e6e5e5; 
+  }
+
+  .BackImgAni{
+    background-image: url(../imagenes/trigo.com.png);
     animation-name: AnimacionTrigo;
     animation-duration: 50s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease; */
-  
+    animation-timing-function: ease;
+    z-index: 1;
   }
 
-  /* @keyframes AnimacionTrigo {
+  @keyframes AnimacionTrigo {
     0%{
         background-position:75% 100% ;   
     }
@@ -60,9 +63,9 @@
 
     }
     
-  } */
+  }
 
-
+/* Footer *//* Footer *//* Footer *//* Footer *//* Footer */
 
 footer{
     background-color: #00d3b9;
