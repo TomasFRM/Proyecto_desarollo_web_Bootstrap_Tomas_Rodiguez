@@ -11,6 +11,9 @@
 #carouselExampleIndicators{
     display: none;
 }
+#ImgSecIndex{
+    padding-left: 10px;
+}
 
 .Main__ImgSec{
     width: 90%;
@@ -45,7 +48,7 @@
   .BackImgAni{
     background-image: url(../imagenes/trigo.com.png);
     animation-name: AnimacionTrigo;
-    animation-duration: 50s;
+    animation-duration: 100s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
@@ -54,12 +57,12 @@
 
   @keyframes AnimacionTrigo {
     0%{
-        background-position:75% 100% ;   
+        background-position:0% 100% ;   
     }
     50%{  
-        background-position:100% 100% ;
+        background-position:50% 100% ;
     }
-    100%{ background-position:125% 100% ;
+    100%{ background-position:100% 100% ;
 
     }
     
