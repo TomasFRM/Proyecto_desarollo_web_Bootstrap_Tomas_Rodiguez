@@ -5,6 +5,20 @@
 .LogoImg {
   height: 90px; }
 
+.container-fluid {
+  padding-left: 0rem;
+  padding-right: 0rem; }
+
+.BodyOverflowX {
+  overflow-x: hidden; }
+
+.navbar-brand {
+  font-family: 'Courgette', cursive;
+  color: black; }
+
+.navbar {
+  padding: 0px; }
+
 #carouselExampleIndicators {
   display: none; }
 
@@ -22,24 +36,6 @@
 .Main__ImgSec:hover {
   transform: translate3d(0px, 0px, -250px); }
 
-.FormatoLi {
-  list-style-type: none;
-  font-family: 'Cuprum', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 700;
-  list-style: none; }
-
-/* background */
-/* background */
-/* background */
-/* background */
-/* background */
-.BgcH {
-  background-color: #00d3b9; }
-
-.BodyBackgroundColor {
-  background-color: #e6e5e5; }
-
 .BackImgAni {
   background-image: url(../imagenes/trigo.com.png);
   animation-name: AnimacionTrigo;
@@ -56,32 +52,6 @@
     background-position: 50% 100%; }
   100% {
     background-position: 100% 100%; } }
-
-/* Footer */
-/* Footer */
-/* Footer */
-/* Footer */
-/* Footer */
-footer {
-  background-color: #00d3b9; }
-
-.bi-youtube {
-  color: black; }
-
-.bi-instagram {
-  color: black; }
-
-.bi-facebook {
-  color: black; }
-
-/* Textos */
-/* Textos */
-/* Textos */
-/* Textos */
-/* Textos */
-.navbar-brand {
-  font-family: 'Courgette', cursive;
-  color: black; }
 
 h1 {
   font-family: 'Courgette', cursive;
@@ -107,9 +77,6 @@ p {
   padding: 1em;
   font-weight: 700; }
 
-/* FORM Config */
-/* FORM Config */
-/* FORM Config */
 legend {
   font-family: 'Courgette', cursive;
   font-size: 2rem;
@@ -127,22 +94,38 @@ legend {
 .btn-primary:hover {
   background-color: #03d78a; }
 
-/* containers general*/
-/* containers */
-/* containers */
-/* containers */
-.container-fluid {
-  padding-left: 0rem;
-  padding-right: 0rem; }
-
-/* mediaq */
-/* mediaq */
-/* mediaq */
-/* mediaq */
-/* mediaq */
-/* mediaq */
 @media only screen and (max-width: 650px) {
   #carouselExampleIndicators {
     display: block; }
   #ImgSecIndex {
     display: none; } }
+
+.table {
+  width: 90vw;
+  font-weight: 700;
+  color: black; }
+
+.FormatoLi {
+  list-style-type: none;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  list-style: none; }
+
+footer {
+  background-color: #00d3b9; }
+
+.bi-youtube {
+  color: black; }
+
+.bi-instagram {
+  color: black; }
+
+.bi-facebook {
+  color: black; }
+
+.BgcH {
+  background-color: #00d3b9; }
+
+.BodyBackgroundColor {
+  background-color: #e6e5e5; }
