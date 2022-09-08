@@ -1,16 +1,15 @@
 
 .FormatoLi{
+    @include fontZiFontWe(0.9rem,700);
     list-style-type: none;
     font-family: 'Cuprum', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 700;
     list-style: none;
 }
 
 // Poner Variable
 
 footer{
-    background-color: #00d3b9;
+    background-color:map-get($background-color , "footer" );
 }
 
 .bi-youtube{

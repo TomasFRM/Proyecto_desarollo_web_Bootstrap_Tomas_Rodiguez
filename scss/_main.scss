@@ -49,44 +49,41 @@
   }
 
 // Textos  
+.textos{
+    font-family: 'Courgette', cursive;
+    color: black;
+    text-align: center;
+}
 
 h1 {
-    font-family: 'Courgette', cursive;
+    @extend .textos;
     font-size:  calc(1.9rem + 1.5vw);
     font-weight: 800 ;
-    color: black;
-    padding: 1em;
-    text-align: center;
+    padding: $padding-general;
 }
 
 
 h2 {
-    font-family: 'Courgette', cursive;
+    @extend .textos;
     font-size: calc(1.5rem + 1.5vw);
     font-weight: 700;
-    color: black;
     padding: 0.9 em;
-    text-align: center;
 }
 
 p {
+    @include fontZiFontWe(1rem,700);
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1rem;
     color: black;
     line-height: 2em;
-    padding: 1em ;
-    font-weight: 700;
+    padding: $padding-general ;
 }
 
 // Form config
 
 legend{
-    font-family: 'Courgette', cursive;
-    font-size: 2rem;
-    font-weight: 800 ;
-    color: black;
-    padding: 1em;
-    text-align: center;
+    @extend .textos;
+    @include fontZiFontWe(2rem,800);
+    padding: $padding-general;
 }
 .btn-primary{
     background-color: #04AA6D;
@@ -96,6 +93,10 @@ legend{
 }
 .btn-primary:hover{
     background-color: #03d78a;  
+}
+
+.form-control:focus {
+    background-color:rgba(223,255,193,1);
 }
 
 // Carrusel de imagenes MEDIAQ
@@ -117,4 +118,5 @@ legend{
     width: 90vw;
     font-weight: 700;
     color: black;
+    background: map-get($background-color, "tabla");
 }

@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+.BodyBackgroundColor{
+    background-color: map-get($background-color , "body" ); 
+  }
+
 .LogoImg{
     height: 90px;
 }

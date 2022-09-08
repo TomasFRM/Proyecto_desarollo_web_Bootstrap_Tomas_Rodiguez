@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px; }
 
+.BodyBackgroundColor {
+  background-color: #e6e5e5; }
+
 .LogoImg {
   height: 90px; }
 
@@ -18,6 +21,9 @@
 
 .navbar {
   padding: 0px; }
+
+.BgcH {
+  background-color: #00d3b9; }
 
 #carouselExampleIndicators {
   display: none; }
@@ -53,37 +59,33 @@
   100% {
     background-position: 100% 100%; } }
 
-h1 {
+.textos, h1, h2, legend {
   font-family: 'Courgette', cursive;
+  color: black;
+  text-align: center; }
+
+h1 {
   font-size: calc(1.9rem + 1.5vw);
   font-weight: 800;
-  color: black;
-  padding: 1em;
-  text-align: center; }
+  padding: 1em; }
 
 h2 {
-  font-family: 'Courgette', cursive;
   font-size: calc(1.5rem + 1.5vw);
   font-weight: 700;
-  color: black;
-  padding: 0.9 em;
-  text-align: center; }
+  padding: 0.9 em; }
 
 p {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 1rem;
+  font-weight: 700;
+  font-family: Helvetica, Arial, sans-serif;
   color: black;
   line-height: 2em;
-  padding: 1em;
-  font-weight: 700; }
+  padding: 1em; }
 
 legend {
-  font-family: 'Courgette', cursive;
   font-size: 2rem;
   font-weight: 800;
-  color: black;
-  padding: 1em;
-  text-align: center; }
+  padding: 1em; }
 
 .btn-primary {
   background-color: #04AA6D;
@@ -94,6 +96,9 @@ legend {
 .btn-primary:hover {
   background-color: #03d78a; }
 
+.form-control:focus {
+  background-color: #dfffc1; }
+
 @media only screen and (max-width: 650px) {
   #carouselExampleIndicators {
     display: block; }
@@ -103,13 +108,14 @@ legend {
 .table {
   width: 90vw;
   font-weight: 700;
-  color: black; }
+  color: black;
+  background: linear-gradient(90deg, #dfffc1 0%, #4bffaa 48%, #34f7dd 100%); }
 
 .FormatoLi {
-  list-style-type: none;
-  font-family: 'Cuprum', sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
+  list-style-type: none;
+  font-family: 'Cuprum', sans-serif;
   list-style: none; }
 
 footer {
@@ -124,8 +130,19 @@ footer {
 .bi-facebook {
   color: black; }
 
-.BgcH {
-  background-color: #00d3b9; }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
 
-.BodyBackgroundColor {
-  background-color: #e6e5e5; }
+@media only screen and (max-width: 1024px) {
+  .BackImgAni {
+    animation-duration: 80s; } }
+
+@media only screen and (max-width: 767px) {
+  .BackImgAni {
+    animation-duration: 60s; } }
+
+@media only screen and (max-width: 576px) {
+  .BackImgAni {
+    animation-duration: 30s; } }

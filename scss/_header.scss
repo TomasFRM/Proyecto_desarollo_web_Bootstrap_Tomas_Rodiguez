@@ -7,3 +7,7 @@
 .navbar{
     padding: 0px;
 }
+
+.BgcH{
+    background-color: map-get($background-color , "header");   
+}
