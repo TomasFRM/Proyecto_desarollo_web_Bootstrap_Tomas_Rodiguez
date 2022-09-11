@@ -17,6 +17,14 @@
     padding-right: 0rem;
 }
 
-.BodyOverflowX{
-    overflow-x: hidden;
+body{
+    width: 100vw;
+}
+
+
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+    --bs-gutter-x: opx;
 }
