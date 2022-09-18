@@ -57,7 +57,7 @@
 
 h1 {
     @extend .textos;
-    font-size:  calc(1.9rem + 1.5vw);
+    font-size:  calc(1.5rem + 1.5vw);
     font-weight: 800 ;
     padding: $padding-general;
 }
@@ -65,7 +65,7 @@ h1 {
 
 h2 {
     @extend .textos;
-    font-size: calc(1.5rem + 1.5vw);
+    font-size: calc(1.2rem + 1.5vw);
     font-weight: 700;
     padding: 0.9 em;
 }
@@ -86,7 +86,7 @@ legend{
     padding: $padding-general;
 }
 .btn-primary{
-    background-color: #04AA6D;
+    background-color: map-get($background-color , "header");
     border: none;
     padding: 16px 32px;
     margin-bottom: 1rem;
