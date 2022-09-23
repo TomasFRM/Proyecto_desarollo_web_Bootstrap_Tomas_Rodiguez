@@ -14,6 +14,7 @@
     <!-- metas -->
     <meta name="description" content="Granjas Mazu, una nueva forma de comprar, directo del productor a tu casa. Compra productos bovinos, porcinos y avicolas">
     <meta name="keywords"  content="granjas, granja, mazu, grnajas mazu, carnes, vaca, pollo, cerdo, fiambre, huevos,campo, productos, agricolas">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="shortcut icon" href="./imagenes/logo-favicon-32x32.png">
     <title>Granjas Mazu - Inicio</title>
@@ -70,40 +71,57 @@
           <div >
             <h2 class="text-center mt-5 mb-5 ms-2 me-2">Mira nuestros productos más llevados:</h2>
           </div>
-            <div id="ImgSecIndex">
-              <div>
-                <div class="row">               
-                    <article class="col-6 col-lg-3">
-                        <img src="./imagenes/hamburguesa-1024-1024.jpg" alt="Hamburguesas" class="Main__ImgSec" >
-                    </article>
-                    <article class="col-6 col-lg-3" >
-                        <img src="./imagenes/huevos-gm-1024-1024.jpg" alt="Huevos" class="Main__ImgSec">
-                    </article>
-                    <article class="col-6 col-lg-3" >
-                        <img src="./imagenes/jamon-cocido-extra.jpg" alt="Jamon Cocido" class="Main__ImgSec">
-                    </article>
-                    <article class="col-6 col-lg-3" >
-                        <img src="./imagenes/jamon-crudo-gm.jpg" alt="Jamon Crudo" class="Main__ImgSec" >   
-                    </article>
+          <div id="ImgSecIndex">
+            <div>
+                <div class="row">              
+                  <article class="col-6 col-lg-3">
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <img src="./imagenes/hamburguesa-1024-1024.jpg" alt="Hamburguesas" class="Main__ImgSec" >
+                    </div>
+                  </article>
+                  <article class="col-6 col-lg-3" >
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <img src="./imagenes/huevos-gm-1024-1024.jpg" alt="Huevos" class="Main__ImgSec">
+                    </div>
+                  </article>
+                  <article class="col-6 col-lg-3" >
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <img src="./imagenes/jamon-cocido-extra.jpg" alt="Jamon Cocido" class="Main__ImgSec">
+                    </div>
+                  </article>
+                  <article class="col-6 col-lg-3" >
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <img src="./imagenes/jamon-crudo-gm.jpg" alt="Jamon Crudo" class="Main__ImgSec" > 
+                    </div>  
+                  </article>    
                 </div>
               
                 <div class="row">
                   <article class="col-6 col-lg-3">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                       <img src="./imagenes/mix-de-carnes-1024x1024.jpg" alt="Mix de Carnes" class="Main__ImgSec">
+                    </div>
                   </article>
                   <article class="col-6 col-lg-3">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                       <img src="./imagenes/pechito1024-1024.jpg" alt="Pechito de Cerdo" class="Main__ImgSec">
+                    </div>
                   </article>
                   <article class="col-6 col-lg-3">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                       <img src="./imagenes/queso-1024-1024.jpg" alt="Quesos" class="Main__ImgSec">
+                    </div>
                   </article>
                   <article class="col-6 col-lg-3">
+                    <div data-aos="fade-up" data-aos-duration="2000">
                       <img src="./imagenes/cerdo-1024x1024.jpg" alt="Carre de Cerdo" class="Main__ImgSec">
+                    </div>
                   </article>
                 </div>
               </div>
             </div>
 <!-- Carrusel para mediaQ --><!-- Carrusel para mediaQ --><!-- Carrusel para mediaQ --><!-- Carrusel para mediaQ -->
+          <div data-aos="fade-up" data-aos-duration="2000">
             <div id="carouselExampleIndicators" class="carousel slide mb-5 mt-5 ms-5 me-5" data-bs-ride="true">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -150,6 +168,7 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+          </div>
 
 
         </section>
@@ -185,6 +204,10 @@
     
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
+    <!-- AOS para animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

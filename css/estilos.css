@@ -104,6 +104,9 @@ legend {
 .form-control:focus {
   background-color: #dfffc1; }
 
+.animate__zoomIn {
+  animation-duration: 2s; }
+
 @media only screen and (max-width: 650px) {
   #carouselExampleIndicators {
     display: block; }
